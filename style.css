@@ -1,0 +1,76 @@
+body{
+    background-color: black;
+}
+
+div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    padding: 10px;
+    margin: 20px;
+    font-size: 25px;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    font-size: 50px;
+    
+}
+
+.controls{
+    margin: 20px;
+}
+
+.start{
+    background-color: green;
+    width: 80px;
+    height: 40px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.stop{
+    background-color: red;
+    width: 80px;
+    height: 40px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.reset{
+    background-color: yellow;
+    width: 80px;
+    height: 40px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    margin: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    cursor: pointer;
+}
